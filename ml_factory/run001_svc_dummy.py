@@ -29,8 +29,6 @@ if __name__ == '__main__':
     X, y = preprocess(X_train, y_train)
     X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.25, shuffle=True, random_state=85)
 
-
-
     if not exists(model_path_h1n1):
         print('\n\tTRAINING H1N1 SVC MODEL')
         model_h1n1 = SvcFactory.initialise()
