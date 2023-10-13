@@ -1,7 +1,6 @@
 from numpy import array
 from typing import Optional, Sequence
-from pandas import merge, read_csv, DataFrame
-from sklearn.model_selection import train_test_split
+from pandas import merge, DataFrame
 
 from pipelines.common import Ordinal, Categorical
 
