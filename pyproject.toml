@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flu"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["maarten.vdbul <maarten.vdbul@gmail.com>"]
 readme = "README.md"
