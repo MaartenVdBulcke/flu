@@ -9,4 +9,4 @@ class Evaluator:
 
     @staticmethod
     def get_roc_auc_score(y_true, y_preds) -> float:
-        return roc_auc_score(y_true, y_preds)
+        return roc_auc_score(y_true, y_preds, average='macro')
